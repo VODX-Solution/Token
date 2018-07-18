@@ -1,0 +1,38 @@
+{
+  "name": "vod-token",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint . && bin/test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "openzeppelin-solidity": "^1.10.0",
+    "truffle-hdwallet-provider": "0.0.5"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.2",
+    "babel-node-modules": "0.0.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^12.0.0-alpha.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-mocha": "^5.1.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "ganache-cli": "^6.1.6",
+    "solium": "^1.1.8",
+    "truffle": "^4.1.13"
+  }
+}
